@@ -1,0 +1,41 @@
+//Fist Page Header Section in Navbar.jsx
+  //Second Go to Pages Create Folders  Like Home,Cart,placeorder..
+  //Third Create Each folder files with Home.jsx and Cart.jsx..
+  //Step - 4 Create react-router-dom in Main.jsx And set a routes in app.jsx for Home ,cart,PlaceOrder
+  //step - 5 Create Folder header and create a file for header jsx and import in Home.jsx
+//step 6 - Create folder Explore Menu and create a file in that Explore Menu.jsx etc... && import menu_list and map it line menu_list 
+//step -7 in home .jsx use a && usestate from explore menu to pass a props like category ,setcategory to the explore menu.jsx
+//step - 8 ✅ Finally, you can say like this (in simple words):
+
+//step - 9 "If I click the same category again, it resets to 'All'. But if I click a different category, 
+// it sets that as the new selected category." -functionality in explore menu
+//step - 10 before display the food item set up context api in our project create a folder in src context and strorecontexprovider wrap the app.jsx in main.jsx
+
+=========================================
+import { createContext } from "react";
+
+export const StoreContext = createContext(null)
+
+const StoreContextProvider = (props) =>{
+    const contextValue = {
+
+    }
+    return(
+        <StoreContextProvider>
+            {props.children}
+        </StoreContextProvider>
+    )
+}
+
+export default StoreContextProvider;
+==============================================
+//mount in StoreContext food_item import and place it in contextValue food_list so it can acess any where
+create folder food_list.jsx 
+step 12 - by using context api we food_list in fooddisplay use a map to display all fooditems
+step 13 - create another folder fooditem here through props recieve name ,id,price etc.....
+step 14 - for add to cartitem  use functionality in the storecontext addCart Remove From cart after import in fooditem
+step 15 - useeffect in storecontext when item update to cart it will effect
+step 16 - Footer folder create 
+step 17 - create folder appdownload and import in Home.jsx
+step 18 - create folder of loginpop in app.jsx usestate is taken and if login is true it will popup login 
+setShow login from navbar pass through the pop revieved in navbar it link to the signup when button is click it 
