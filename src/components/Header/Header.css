@@ -1,7 +1,8 @@
 .header{
     height : 38vw;
    margin: 25px auto;
-  background: url('./header_img.png') no-repeat;
+  /* background: url('./header_img.png') no-repeat; */
+ 
   background-size: cover;
    position: relative;
 }
