@@ -15,7 +15,7 @@ A responsive food delivery web application built with React.js and Bootstrap.
 - HTML5, CSS3  
 
 ## Live Demo  
-https://kaveri6303.github.io/
+https://kaveri6303.github.io/DeliveryFood-App/
 
 ## GitHub Repo  
 https://github.com/Kaveri6303/DeliveryFood-App
